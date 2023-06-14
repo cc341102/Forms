@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>GET</h1>
+
+<div class="form-one-container">
+    <form class="form-one" action="localhost/forms/", method="GET">
+        <label for="first-name">First Name:</label><br>
+        <input type="text" id="first-name" name="first-name"><br>
+        <label for="last-name">Last Name:</label><br>
+        <input type="text" id="last-name" name="last-name"><br>
+
+        <input class="submitbttn" type="submit" value="submit">
+    </form>
+</div>
+    
+
+
+    <h1>POST</h1>
+    <div class="form-two-container">
+        <form class="form-two" action="localhost/forms/", method="post">
+            <label for="first-name">First Name:</label><br>
+            <input type="text" id="first-name" name="first-name" required><br>
+            <label for="last-name">Last Name:</label><br>
+            <input type="text" id="last-name" name="last-name"><br>
+    
+            <input class="submitbttn" type="submit" value="submit">
+        </form>
+    </div>
+
+</body>
+</html>
